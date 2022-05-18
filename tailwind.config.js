@@ -14,7 +14,7 @@ module.exports = {
           }
       ,
          fontFamily: {
-          'Bilo': ["'Bilo'", 'sans-serif']
+          'Bilo': ["'Bilo'", 'italic']
         }
       }
     },
