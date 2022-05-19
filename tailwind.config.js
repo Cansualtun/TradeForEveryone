@@ -7,13 +7,14 @@ module.exports = {
       'lg': '1024px',
       'xl': '1280px',
       '2xl': '1536px',
-    }  
+    },  
         extend: {
           colors: {
 
-           body: '#101C26',
+          body: '#101C26',
           'boldDown': '#FFFFFF',
           'Button': '#606060',
+          'secondBody': '#F2F6FF',
           'Box': '#3D1673',
           'Footer': '#6A6D9E'
           
