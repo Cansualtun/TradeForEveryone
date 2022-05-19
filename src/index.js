@@ -20,7 +20,7 @@ onAuthStateChanged(auth, user => {
     if(user != null ) {
         console.log('logged in!');
     } else {
-        console.log('No User');
+        console.log('Successfull');
     }
 });
 
