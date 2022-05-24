@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tailwind Login Template by David Grzyb</title>
+    <title>Admin Sıgn Up</title>
 	<meta name="author" content="David Grzyb">
     <meta name="description" content="">
 
@@ -60,4 +60,25 @@
         <span class="mx-3">•</span>
     </footer>
 </body>
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyC5EG-4xARRWM3iHHzsKukDM1nZQh6A7Xg",
+  authDomain: "tradeforeveryone-f1f9d.firebaseapp.com",
+  projectId: "tradeforeveryone-f1f9d",
+  storageBucket: "tradeforeveryone-f1f9d.appspot.com",
+  messagingSenderId: "387514272816",
+  appId: "1:387514272816:web:7e4b7b04472780916771f5",
+  measurementId: "G-DB4T0R9ZGX"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+</script>
 </html
