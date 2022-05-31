@@ -24,8 +24,9 @@ module.exports = {
           
          fontFamily: {
           'Bilo': ["'Bilo'", 'italic'],
-          'bilo': ["'Bilo'" , 'Bold'], 
-          'Bilo': ["'Bilo'", 'Regular']
+          'bilo': ["'Bilo'" , 'bold'], 
+          'Bilo': ["'Bilo'", 'Regular'],
+          'bil' : ["'Bilo'" , 'Medium']
         }
       }
     },
