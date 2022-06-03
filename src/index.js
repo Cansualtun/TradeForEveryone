@@ -50,7 +50,7 @@ var btnLog=document.getElementById("btn");
         if(user === true)
 		window.alert("Siteme Hoşgeldiniz");
         else {
-            Windows.alert("Tekrar Deneyiniz!")
+            Window.alert("Tekrar Deneyiniz!")
         }
 	}
 var btnregister=document.getElementById("register") ; 
@@ -58,7 +58,7 @@ var btnregister=document.getElementById("register") ;
         if(user===firebaseApp) 
             window.location.port="http://127.0.0.1:5501/src/index.html";
         else {
-            windows.alert("Bilgiler Eksik Girildi!")
+            window.alert("Bilgiler Eksik Girildi!")
         }
         }
     }
