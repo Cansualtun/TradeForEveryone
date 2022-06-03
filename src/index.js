@@ -50,7 +50,7 @@ var btnLog=document.getElementById("btn");
         if(user === true)
 		window.alert("Siteme Hoşgeldiniz");
         else {
-            Windows.alert("Tekrar Deneyiniz!")
+            Window.alert("Tekrar Deneyiniz!")
         }
 	}
 var btnregister=document.getElementById("register") ; 
