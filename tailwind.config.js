@@ -14,7 +14,7 @@ module.exports = {
            "body": '#101C26',
           'boldDown': '#FFFFFF',
           'Button': '#606060',
-          'secondBody': '#F2F6FF',
+          "secondBody": '#F2F6FF',
           'Box': '#3D1673',
           'Footer': '#6A6D9E'
           
