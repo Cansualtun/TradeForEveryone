@@ -15,7 +15,7 @@ const Navbar = () => {
             <span className="sr-only">TradeForEveryOne</span>
             <img height={70} width={70}
               className="h-20 w-auto sm:h-15"
-              src="img/logos.svg"
+              src="./img/logos.svg"
               alt="" />
           </a>
           <div class="flex flex-auto space-x-12 mr-30">
@@ -33,7 +33,7 @@ const Navbar = () => {
               max-w-screen-lg mx-auto px-7 py-4 mt-5 font-Bilo text-gray-500-500 bg-purple-400 border-4 border-black rounded-xl   
               focus:outline-none focus:ring shadow-[6px_6px_0_0_#000] hover:shadow-none active:bg-purple-600">Contact Us </li>
               
-              <button type="button" className="px-8 py-3 font-semibold rounded-full dark:bg-gray-100 dark:text-gray-800">Rounded</button>
+              <button type="button" className="px-3 py-3 font-semibold rounded- dark:bg-gray-100 dark:text-gray-800">Login</button>
 
           </div>
 
@@ -45,7 +45,7 @@ const Navbar = () => {
           <a href="#">
             <span className="sr-only">TradeForEveryOne</span>
             <img height={80} width={80}
-              src="img/logos.svg"
+              src="./img/logos.svg"
               alt="" />
           </a>
             <li className='p-5 border-b border-gray-600'>Home</li>
