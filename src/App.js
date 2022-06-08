@@ -1,14 +1,22 @@
 import React from 'react';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import ContactUs from './contactus';
+import About from './components/About';
+import Analytics from './components/Analytics';
+import Cards from './components/Cards';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import Newsletter from './components/Newsletter';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
-        <ContactUs/>
-      </div>
+    <div>
+      <Navbar />
+      <Hero />
+      <Analytics />
+      <Newsletter />
+      <Cards />
+      <About />
+      <img height={70} width={70} src='{logos}' alt='logos'/>
     </div>
   );
 }
